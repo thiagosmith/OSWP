@@ -36,3 +36,46 @@ Aqui estão as recomendações de correções para as falhas encontradas durante
 ---
 
 👉 Essas recomendações devem ser apresentadas como **plano de mitigação** no relatório final, mostrando não apenas a exploração das falhas, mas também a proposta de correção e endurecimento da segurança. 
+
+---
+
+Perfeito, Thiago. Aqui está a seção de **Plano de Mitigação** já formatada para integrar diretamente ao seu relatório OSWP:
+
+---
+
+## 📌 Plano de Mitigação
+
+### 1. Redes WEP
+- **Substituição imediata:** Migrar para WPA2 ou WPA3, eliminando o uso de WEP.  
+- **Desativação de SSIDs legados:** Remover redes antigas que ainda utilizam WEP.  
+- **Isolamento de dispositivos antigos:** Caso seja necessário manter compatibilidade, segmentar em VLAN restrita sem acesso crítico.  
+
+---
+
+### 2. Redes WPA/WPA2‑PSK
+- **Senhas fortes e complexas:** Implementar senhas longas, únicas e não relacionadas a dicionários comuns.  
+- **Rotação periódica:** Estabelecer política de troca regular das chaves PSK.  
+- **Autenticação centralizada:** Migrar para WPA2‑Enterprise ou WPA3‑Enterprise, evitando senhas compartilhadas entre múltiplos usuários.  
+- **Monitoramento ativo:** Implantar sistemas de detecção de intrusão wireless (WIDS) para identificar ataques de desautenticação.  
+
+---
+
+### 3. Redes WPA‑Enterprise (802.1X/EAP)
+- **Validação de certificados:** Configurar clientes para validar corretamente certificados do servidor RADIUS.  
+- **Certificados confiáveis:** Utilizar certificados emitidos por autoridades reconhecidas, evitando autoassinados.  
+- **Mitigação de NTLM:** Desabilitar NTLM sempre que possível e adotar métodos mais seguros como Kerberos ou autenticação baseada em certificados.  
+- **Treinamento de usuários:** Conscientizar sobre riscos de redes falsas e boas práticas de conexão.  
+- **Monitoramento e auditoria:** Implementar logs e alertas para tentativas suspeitas de autenticação.  
+
+---
+
+### 4. Recomendações Gerais
+- **Adoção de WPA3:** Sempre que possível, migrar para WPA3, que oferece maior robustez contra ataques offline.  
+- **Segmentação de tráfego:** Separar redes corporativas, convidado e IoT em diferentes VLANs.  
+- **WIDS/WIPS:** Implementar sistemas de detecção e prevenção de intrusão wireless.  
+- **Políticas de segurança:** Formalizar requisitos de senha, autenticação e uso de Wi‑Fi em políticas corporativas.  
+- **Atualizações de firmware:** Manter roteadores e pontos de acesso sempre atualizados para corrigir vulnerabilidades conhecidas.  
+
+---
+
+👉 Essa seção pode ser adicionada logo após a **Conclusão** do relatório, reforçando não apenas a exploração das falhas, mas também a proposta de correção e endurecimento da segurança.
