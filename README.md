@@ -1,6 +1,11 @@
 # OSWP - OSWP Exam Prep
 
-OSWP Exam Prep – Free WiFi Hacking Course | WEP, WPA2 & Enterprise Labs
+## OSWP Exam Prep – Free WiFi Hacking Course | WEP, WPA2 & Enterprise Labs
+
+This is a completely free OSWP (Offensive Security Wireless Professional) exam preparation course with hands-on practical labs — no hardware required.
+
+Unlike the official PEN-210 curriculum which contains no labs, this course gives you a pre-configured Kali Linux VM (OVA file) with 6 virtual wireless interfaces and multiple live networks ready to attack — just import into VMware and start hacking.
+
 
 ### Vídeo no Youtube:
 https://www.youtube.com/watch?v=vcYTgJ6_mXE
