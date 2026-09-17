@@ -1,5 +1,16 @@
 # OSWP - OSWP Exam Prep
 
+OSWP Exam Prep – Free WiFi Hacking Course | WEP, WPA2 & Enterprise Labs
+
+### Vídeo no Youtube:
+https://www.youtube.com/watch?v=vcYTgJ6_mXE
+
+### Comandos detalhados
+https://wifi-hacking.cavementech.com/
+
+### 📥 Free Lab OVA:
+https://drive.google.com/file/d/1_INImz8zREtEKJs_jO-ZEDD81KwLpkYp/view
+
 ## WEP
 
 ```bash
