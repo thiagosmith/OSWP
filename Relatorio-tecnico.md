@@ -107,5 +107,3 @@
 📌 Esse relatório demonstra domínio das três metodologias exigidas pelo exame OSWP, com comandos, resultados e provas de acesso documentados.
 
 ---
-
-Quer que eu já formate isso em estilo **acadêmico/profissional** (com linguagem mais formal e pronto para submissão), ou prefere manter esse estilo técnico direto com comandos e resultados?
