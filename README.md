@@ -464,3 +464,6 @@ make
 openssl x509 -in server.pem -noout -subject -issuer
 openssl x509 -in ca.pem -noout -subject
 ```
+
+## Nota importante: 
+Esse processo é usado em ambientes de laboratório e exames como o OSWP para demonstrar vulnerabilidades em WPA/WPA2. Em redes reais sem autorização, seria ilegal.
