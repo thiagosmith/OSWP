@@ -70,5 +70,3 @@ O presente relatório evidencia a aplicação prática de técnicas de exploraç
 
 A documentação comprova a capacidade técnica do candidato em identificar, explorar e validar vulnerabilidades em ambientes Wi‑Fi, atendendo aos requisitos do exame **OffSec Wireless Professional**.
 ---
-
-Thiago, se quiser, posso enriquecer esse relatório com **capturas de tela simuladas** (exemplo de saída dos comandos) e **diagramas de fluxo metodológico** para dar ainda mais robustez acadêmica. Deseja que eu prepare essa versão ilustrada?
