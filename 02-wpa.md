@@ -45,7 +45,7 @@ sudo aircrack-ng wifi-mobile-01.cap -w /usr/share/wordlists/rockyou.txt
 ### Define como o wpa_supplicant deve se conectar à rede wifi-mobile. Inclui SSID, BSSID e a senha descoberta (starwars1), além de parâmetros avançados para compatibilidade.
 ```
 network={
-        ssid=wifi-"mobile"
+        ssid="wifi-mobile"
         bssid=F0:9F:C2:71:22:12
         psk="starwars1"
 
